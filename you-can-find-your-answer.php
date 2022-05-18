@@ -9,7 +9,7 @@ $nums = $nums[0];
 
 $result = 0;
 foreach ($operators as $key => $operator) {
-    if ($result === 0) {
+    if ($key === 0) {
         $result = $nums[$key];
     }
 
